@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+deeprecon.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Relatórios gerados (contêm dados de recon, não devem ir pro repo)
+reports/
+
+# Ambiente / segredos
+.env
+*.key
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
